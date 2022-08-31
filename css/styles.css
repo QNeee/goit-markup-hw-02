@@ -1,0 +1,69 @@
+:root {
+--accent-color:#2196F3;
+--primary-text:#212121;
+--secondary-text:#757575;
+--footer-bcg:#2F303A;
+--primary-bcg:#F5F5F5;
+--footer-linkcolor:rgba(255, 255, 255, 0.6);
+--footer-adrescolor:#FFFFFF;
+--filter-secondarycolor:#FFFFFF;
+}
+body{
+color:var(--primary-text);
+background-color: var(--primary-bcg);
+font-family: Roboto,sans-serif;
+}
+/* logo */
+.logo{
+font-size: 26px;
+line-height: 1.19;
+ letter-spacing: 0.03em;
+}
+.logo:hover,.logo:focus{
+
+    color: var(--accent-color);
+}
+/* site nav */
+.site-nav{
+    font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+}
+.site-nav .link:hover,.link:focus,.link.current{
+    color:var(--accent-color);
+}
+
+/* filters */
+.filters-btns{
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.btns:hover,.btns:focus{
+    background-color: var(--accent-color);
+    color:var(--filter-secondarycolor);
+}
+/* projects */
+.group1{
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.title{
+font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+
+}
+/* footer */
+.adress-list{
+    font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color:var(--footer-adrescolor);
+}
+.adress-link{
+color:var(--footer-linkcolor);
+}
