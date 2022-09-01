@@ -83,12 +83,17 @@ body {
 /* site nav */
 .site-nav {
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 16px;
   letter-spacing: 0.02em;
 }
-.site-nav .link:hover,
+
+.link:hover,
 .link:focus,
-.link.current {
+.link.current,
+.adress-link:hover,
+.adress-link:focus,
+.adress-link1:hover,
+.adress-link1:focus {
   color: var(--accent-color);
 }
 
@@ -101,6 +106,10 @@ body {
 }
 .btns:hover,
 .btns:focus {
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
   background-color: var(--accent-color);
   color: var(--filter-secondarycolor);
   cursor: pointer;
@@ -135,8 +144,21 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: var(--footer-linkcolor);
+}
+
+.adress-link1 {
   color: var(--footer-adrescolor);
 }
-.adress-link {
-  color: var(--footer-linkcolor);
+.link,
+.adress-link,
+.adress-link1,
+.logo {
+  text-decoration: none;
+}
+.link {
+  color: var(--primary-text);
+}
+.link-list {
+  color: var(--secondary-text);
 }
