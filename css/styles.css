@@ -41,7 +41,7 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.btns:hover,.btns:focus{
+.btns:hover,.btns:focus,.btns:active{
     background-color: var(--accent-color);
     color:var(--filter-secondarycolor);
     cursor: pointer;
