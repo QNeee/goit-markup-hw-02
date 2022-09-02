@@ -19,161 +19,12 @@ body {
 .lst {
   list-style: none;
 }
-
+.link {
+  text-decoration: none;
+}
 /* header */
 .header {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: var(--primary-text);
-}
-/* index */
-.hero {
-  background-color: var(--hero-bcg);
-}
-.hero-button {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  background-color: var(--accent-color);
-  color: var(--filter-secondarycolor);
-}
-.hero-button:hover,
-.hero-button:focus {
-  color: var(--accent-color);
   background-color: var(--filter-secondarycolor);
-  cursor: pointer;
-}
-.hero-title {
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--footer-adrescolor);
-}
-.features h3 {
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.features p {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text);
-}
-.titles {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team {
-  background-color: var(--primary-bcg);
-}
-.team-titles h3 {
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-.team-titles p {
-  font-size: 16px;
-  line-height: 1.9;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text);
-}
-/* logo */
-.logo {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-}
-.logo-white {
-  color: var(--filter-secondarycolor);
-}
-.logo-black {
-  color: var(--primary-text);
-}
-.logo-web {
-  color: var(--accent-color);
-}
-/* site nav */
-.site-nav {
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-}
-
-.link:hover,
-.link:focus,
-.link.current,
-.adress-link:hover,
-.adress-link:focus {
-  color: var(--accent-color);
-}
-
-/* filters */
-.btns {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
-  background-color: var(--btns-color);
-}
-.btns:hover,
-.btns:focus {
-  background-color: var(--accent-color);
-  color: var(--filter-secondarycolor);
-  cursor: pointer;
-}
-/* projects */
-.group1 {
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-}
-
-.title {
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text);
-}
-/* footer */
-.footer {
-  background-color: var(--footer-bcg);
-}
-.adress-list,
-.adress-link {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--footer-linkcolor);
-}
-
-.adress-link1 {
-  color: var(--footer-adrescolor);
-}
-.link,
-.adress-link,
-.adress-link1,
-.logo {
-  text-decoration: none;
 }
 .link {
   font-family: 'Roboto';
@@ -186,4 +37,158 @@ body {
 }
 .link-list {
   color: var(--secondary-text);
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-white {
+  color: var(--filter-secondarycolor);
+}
+.logo-black {
+  color: var(--primary-text);
+}
+.logo-web {
+  color: var(--accent-color);
+}
+/* index */
+/* hero */
+.hero {
+  background-color: var(--footer-bcg);
+}
+.hero-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--filter-secondarycolor);
+}
+.hero-button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--filter-secondarycolor);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--accent-color);
+  background-color: var(--filter-secondarycolor);
+}
+/* features */
+.features h3 {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.features p {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+/* team */
+.team {
+  background-color: var(--primary-bcg);
+}
+.titles {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-titles h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-titles p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+/* portfolio */
+/* btns */
+.btns {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+}
+.btns:hover,
+.btns:focus {
+  background-color: var(--accent-color);
+  color: var(--filter-secondarycolor);
+}
+/* projects */
+.group1 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text);
+}
+/* footer */
+.footer {
+  background-color: var(--footer-bcg);
+}
+.adress-link {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footer-linkcolor);
+}
+.link1 {
+  color: var(--filter-secondarycolor);
+  text-decoration: none;
 }
