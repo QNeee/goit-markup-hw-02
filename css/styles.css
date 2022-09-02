@@ -192,3 +192,6 @@ body {
   color: var(--filter-secondarycolor);
   text-decoration: none;
 }
+.current {
+  color: var(--accent-color);
+}
